@@ -241,7 +241,8 @@ class ESN():
 
         inputs = np.vstack([lastinput, self._scale_inputs(inputs)])
         states = np.vstack(
-            [laststate, np.zeros((n_samples, self.n_reservoir))])
+            [laststate, np.zeros((n_samples, self.n_reservoir))]
+        )
         outputs = np.vstack(
             [lastoutput, np.zeros((n_samples, self.n_outputs))])
 
