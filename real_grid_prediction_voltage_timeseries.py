@@ -24,6 +24,7 @@ validation_data_output = total_voltage_dataset[cutoff:]
 BASE = './results/automated_real_grid_timeseries/voltage'
 
 future_steps = 500
+
 for _ in range(10):
     esn = echo_state_network.ESN(
         1, 1, n_reservoir=3000, sparsity=0.1, noise=0
