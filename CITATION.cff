@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "In case you would like to refer to this modified version of the pyESN package"
+authors:
+  - family-names: Zaliaduonis
+    given-names: Justinas
+title: "Adjusted Echo State Neural Network implementation"
+version: 2.0.4
+date-released: 2022-05-15
